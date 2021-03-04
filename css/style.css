@@ -1,0 +1,42 @@
+
+
+nav {
+  background: blue
+}
+
+nav a {
+  color: white
+}
+
+
+h1 {
+  color: purple;
+  background-color: yellow;
+  text-align: right;
+}
+
+ol li {
+  color: pink;
+}
+
+
+.urgent {
+  color: orange;
+  font-size: 2em;
+}
+
+.blue {
+  color:blue;
+}
+.responsive {
+  max-width: 30%;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: blue;
+  }
+.sidebyside img {
+  width: 20%;
+}
+}
